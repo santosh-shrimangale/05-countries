@@ -1,0 +1,53 @@
+.back-button {
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+  margin-block: 50px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+.main-container {
+  display: flex;
+}
+.img-container {
+  max-width: 450px;
+  max-height: 400px;
+}
+.img-container img {
+  max-width: 100%;
+}
+.country-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  /* align-items: center; */
+  gap: 90px;
+  margin-inline: 57px;
+}
+
+.card-title {
+  margin-inline: 55px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.border-countries {
+  display: flex;
+  gap: 40px;
+  margin-inline: 58px;
+}
+.border-countries p {
+  margin-block: 6px;
+}
+.border-countries button {
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
